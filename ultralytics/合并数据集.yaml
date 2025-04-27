@@ -1,0 +1,256 @@
+path: autodl-tmp/合并数据集 # dataset root dir
+train: output/images/train # train images (relative to 'path') 118287 images
+val:  output/images/val  # val images (relative to 'path') 5000 images
+test: 
+names:
+  0: Rice Leaf Roller
+  1: rice leaf caterpillar
+  2: paddy stem maggot
+  3: asiatic rice borer
+  4: yellow rice borer
+  5: rice gall midge
+  6: rice stemfly
+  7: brown plant hopper
+  8: white backed plant hopper
+  9: small brown plant hopper
+  10: rice water weevil
+  11: rice leafhopper
+  12: grain spreader thrips
+  13: rice shell pest
+  14: grub
+  15: mole cricket
+  16: wireworm
+  17: white margined moth
+  18: black cutworm
+  19: large cutworm
+  20: yellow cutworm
+  21: red spider
+  22: corn borer
+  23: Armyworm
+  24: aphids
+  25: potosiabre vitarsis
+  26: peach borer
+  27: english grain aphid
+  28: green bug
+  29: bird cherry-oataphid
+  30: wheat blossom midge
+  31: penthaleus major
+  32: longlegged spider mite
+  33: wheat phloeothrips
+  34: wheat sawfly
+  35: cerodonta denticornis
+  36: beet fly
+  37: flea beetle
+  38: cabbage army worm
+  39: beet army worm
+  40: beet spot flies
+  41: meadow moth
+  42: beet weevil
+  43: sericaorient alismots chulsky
+  44: alfalfa weevil
+  45: flax budworm
+  46: alfalfa plant bug
+  47: tarnished plant bug
+  48: Locustoidea
+  49: lytta polita
+  50: legume blister beetle
+  51: blister beetle
+  52: therioaphis maculata Buckton
+  53: odontothrips loti
+  54: Thrips
+  55: alfalfa seed chalcid
+  56: Pieris canidia
+  57: Apolygus lucorum
+  58: Limacodidae
+  59: Viteus vitifoliae
+  60: Colomerus vitis
+  61: Brevipoalpus lewisi McGregor
+  62: oides decempunctata
+  63: Polyphagotars onemus latus
+  64: Pseudococcus comstocki Kuwana
+  65: parathrene regalis
+  66: Ampelophaga
+  67: Lycorma delicatula
+  68: Xylotrechus
+  69: Cicadella viridis
+  70: Miridae
+  71: Trialeurodes vaporariorum
+  72: Erythroneura apicalis
+  73: Papilio xuthus
+  74: Panonchus citri McGregor
+  75: Phyllocoptes oleiverus ashmead
+  76: Icerya purchasi Maskell
+  77: Unaspis yanonensis
+  78: Ceroplastes rubens
+  79: Chrysomphalus aonidum
+  80: Parlatoria zizyphus Lucus
+  81: Nipaecoccus vastalor
+  82: Aleurocanthus spiniferus
+  83: Tetradacus c Bactrocera minax
+  84: Dacus dorsalis(Hendel)
+  85: Bactrocera tsuneonis
+  86: Prodenia litura
+  87: Adristyrannus
+  88: Phyllocnistis citrella Stainton
+  89: Toxoptera citricidus
+  90: Toxoptera aurantii
+  91: Aphis citricola Vander Goot
+  92: Scirtothrips dorsalis Hood
+  93: Dasineura sp
+  94: Lawana imitata Melichar
+  95: Salurnis marginella Guerr
+  96: Deporaus marginatus Pascoe
+  97: Chlumetia transversa
+  98: Mango flat beak leafhopper
+  99: Rhytidodera bowrinii white
+  100: Sternochetus frigidus
+  101: Cicadellidae
+  102: Agriotes fuscicollis Miwa
+  103: Anomala corpulenta
+  104: Athetis lepigone
+  105: Bollworm
+  106: Gryllotalpa orientalis
+  107: Land tiger
+  108: Little Gecko
+  109: Meadow borer
+  110: Melahotus
+  111: Nematode trench
+  112: Plutella xylostella
+  113: Rice planthopper
+  114: Scotogramma trifolii Rottemberg
+  115: Spodoptera cabbage
+  116: Spodoptera exigua
+  117: Spodoptera litura
+  118: Stem borer
+  119: Striped rice bore
+  120: Yellow tiger
+  121: eight-character tiger
+  122: holotrichia oblita
+  123: holotrichia parallela
+weights:
+  0: 2.6666666595555557e-09
+  1: 1.1363636234504133e-08
+  2: 5.8823525951557305e-08
+  3: 9.523809433106577e-09
+  4: 1.9999999600000007e-08
+  5: 1.8181817851239675e-08
+  6: 5.5555552469135975e-08
+  7: 1.4492753413148503e-08
+  8: 1.9999999600000007e-08
+  9: 3.030302938475669e-08
+  10: 1.0204081528529781e-08
+  11: 1.3333333155555559e-08
+  12: 8.333332638888949e-08
+  13: 4.347825897920613e-08
+  14: 2.2779043228293754e-09
+  15: 1.8083182607444517e-09
+  16: 2.8735632101334397e-09
+  17: 2.4999999375000016e-08
+  18: 4.975124353357591e-09
+  19: 8.849557443809227e-09
+  20: 7.633587727987881e-09
+  21: 9.70873776981808e-09
+  22: 3.5587188485454847e-09
+  23: 3.0441400295147216e-10
+  24: 1.1025358311989683e-09
+  25: 6.451612861602498e-09
+  26: 6.060606023875116e-09
+  27: 5.681818149535125e-09
+  28: 2.4999999375000016e-08
+  29: 1.2345678859929893e-08
+  30: 7.692307100591762e-08
+  31: 2.222222172839507e-08
+  32: 2.5641024983563464e-08
+  33: 1.3157894563711915e-08
+  34: 9.900990000980297e-09
+  35: 5.8823525951557305e-08
+  36: 4.347825897920613e-08
+  37: 4.62962960819616e-09
+  38: 5.747126403752148e-09
+  39: 3.6363636231404963e-09
+  40: 2.1276595291987334e-08
+  41: 1.5384615147929e-08
+  42: 9.900990000980297e-09
+  43: 1.49253729115616e-08
+  44: 1.5873015621063245e-08
+  45: 3.533568892107531e-09
+  46: 6.5789473251385055e-09
+  47: 4.0816326364015e-09
+  48: 2.739726019891162e-09
+  49: 5.494505464315905e-09
+  50: 3.2362459442192696e-09
+  51: 1.5360983079322607e-09
+  52: 4.99999750000125e-07
+  53: 2.2727272210743815e-08
+  54: 3.030302938475669e-08
+  55: 9.090908264462887e-08
+  56: 2.777777700617286e-08
+  57: 4.761904535147403e-08
+  58: 6.896551676575507e-09
+  59: 1.0
+  60: 1.0
+  61: 9.999990000010003e-07
+  62: 8.928571348852042e-09
+  63: 1.0
+  64: 1.8518518175583e-08
+  65: 4.347825897920613e-08
+  66: 5.617977496528218e-09
+  67: 4.7169811098255614e-09
+  68: 9.70873776981808e-09
+  69: 7.352941122404846e-09
+  70: 1.2755102024547066e-09
+  71: 1.4084506843880188e-08
+  72: 9.999999000000102e-08
+  73: 1.6666666388888896e-08
+  74: 1.7857142538265312e-08
+  75: 1.0
+  76: 5.813953454570039e-09
+  77: 2.8901734020515225e-09
+  78: 4.115226320513472e-09
+  79: 8.547008473957193e-09
+  80: 1.0
+  81: 3.225806347554634e-08
+  82: 9.70873776981808e-09
+  83: 2.8571427755102068e-08
+  84: 1.1627906841535968e-08
+  85: 5.5555552469135975e-08
+  86: 3.5211267481650475e-09
+  87: 1.1235954929933092e-08
+  88: 8.333332638888949e-08
+  89: 6.666666222222252e-08
+  90: 5.2631576177285466e-08
+  91: 1.428571224489825e-07
+  92: 2.0833332899305566e-08
+  93: 8.333332638888949e-08
+  94: 1.0101009998979698e-08
+  95: 8.333333263888889e-09
+  96: 2.38095232426304e-08
+  97: 2.5641024983563464e-08
+  98: 1.1111109876543349e-07
+  99: 1.1111110987654323e-08
+  100: 2.4999999375000016e-08
+  101: 5.344735432739318e-10
+  102: 3.4399724790368176e-10
+  103: 4.0312827540098654e-11
+  104: 7.20616847969978e-11
+  105: 1.1076650419685794e-10
+  106: 4.2973785972078305e-10
+  107: 5.235602066829309e-09
+  108: 4.498425549033547e-10
+  109: 1.2140342356180606e-10
+  110: 2.3529411709342562e-09
+  111: 1.0416666558159723e-08
+  112: 1.883239167828175e-09
+  113: 1.0298661163441133e-09
+  114: 5.482456137345144e-10
+  115: 1.2787723768813653e-09
+  116: 7.293946019479252e-10
+  117: 1.3227513210016517e-09
+  118: 2.1367521321864272e-09
+  119: 2.6737967842946615e-09
+  120: 1.8018017985553122e-09
+  121: 1.2820512656147276e-08
+  122: 2.2727272210743815e-08
+  123: 2.1853146848371254e-10
+
+
